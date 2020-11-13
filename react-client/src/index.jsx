@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import relatedItems_comparison from './components_relatedItems_comparison/relatedItems_comparison.jsx'
 
 export default class App extends Component {
   constructor(props) {
@@ -10,7 +11,10 @@ export default class App extends Component {
 
   render() {
     return (
-      <h1>Hello World</h1>
+      <div>
+        <h1>Hello World</h1>
+        <relatedItems_comparison/>
+      </div>
     )
   }
 }
